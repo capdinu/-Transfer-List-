@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transfer List with Checkboxes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left List -->
+    <div class="list-container">
+      <h3>Available</h3>
+      <ul id="availableList">
+        <li><input type="checkbox" value="JS"> JS</li>
+        <li><input type="checkbox" value="HTML"> HTML</li>
+        <li><input type="checkbox" value="CSS"> CSS</li>
+        <li><input type="checkbox" value="TS"> TS</li>
+      </ul>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button id="moveRight">>></button>
+      <button id="moveLeft"><<</button>
+    </div>
+
+    <!-- Right List -->
+    <div class="list-container">
+      <h3>Selected</h3>
+      <ul id="selectedList">
+        <li><input type="checkbox" value="React"> React</li>
+        <li><input type="checkbox" value="Angular"> Angular</li>
+        <li><input type="checkbox" value="Vue"> Vue</li>
+        <li><input type="checkbox" value="Svelte"> Svelte</li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
